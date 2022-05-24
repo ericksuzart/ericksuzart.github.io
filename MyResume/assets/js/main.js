@@ -261,4 +261,14 @@
     })
   });
 
+  /**
+   * Toggle class on scroll
+   * 
+   */
+  const body = document.querySelector('body');
+  const toggle = document.getElementById('toggle');
+  toggle.onclick = function() {
+    this.classList.toggle('active');
+    body.classList.toggle('active');
+  }
 })()
