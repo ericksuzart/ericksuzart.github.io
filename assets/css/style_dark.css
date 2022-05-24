@@ -12,18 +12,15 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #d8d7d6;
   background-color: #1f1f1f;
-  /* ok */
 }
 
 a {
   color: #fa9c44;
-  /* ok */
   text-decoration: none;
 }
 
 a:hover {
   color: #f98212;
-  /* ok */
   text-decoration: none;
 }
 
@@ -42,7 +39,6 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   z-index: 996;
   background: #fa9c44;
-  /* ok */
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -51,14 +47,11 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top i {
   font-size: 28px;
   color: #000;
-  /* ok */
   line-height: 0;
 }
 .back-to-top:hover {
   background: #f9871c;
-  /* ok */
   color: #000;
-  /* ok */
 }
 .back-to-top.active {
   visibility: visible;
@@ -77,7 +70,6 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9999;
   overflow: hidden;
   background: #000;
-  /* ok */
 }
 
 #preloader:before {
@@ -86,11 +78,8 @@ h1, h2, h3, h4, h5, h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #fa9c44;
-  /* ok */
   border-top-color: #000;
-  /* ok */
   border-bottom-color: #000;
-  /* ok */
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -140,10 +129,8 @@ h1, h2, h3, h4, h5, h6 {
   #header {
     width: 300px;
     background: #000;
-    /* ok */
-    border-right: 1px solid #191613;
-    /* ok */
-    left: -300px;
+      border-right: 1px solid #191613;
+      left: -300px;
   }
 }
 
@@ -175,14 +162,12 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   color: #baafa4;
-  /* ok */
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
   background: #0d0c0a;
-  /* ok */
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -194,7 +179,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a span, .nav-menu a:focus span {
   padding: 0 5px 0 7px;
   color: #baafa4;
-  /* ok */
 }
 @media (min-width: 992px) {
   .nav-menu a, .nav-menu a:focus {
@@ -203,23 +187,18 @@ h1, h2, h3, h4, h5, h6 {
   .nav-menu a span, .nav-menu a:focus span {
     display: none;
     color: #000;
-    /* ok */
-  }
+    }
 }
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   color: #000;
-  /* ok */
   background: #fa9c44;
-  /* ok */
 }
 .nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
   color: #000;
-  /* ok */
 }
 .nav-menu a:hover, .nav-menu li:hover > a {
   width: 100%;
   color: #000;
-  /* ok */
 }
 .nav-menu a:hover span, .nav-menu li:hover > a span {
   display: block;
@@ -245,7 +224,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .mobile-nav-toggle i {
   color: #baafa4;
-  /* ok */
 }
 
 .mobile-nav-active {
@@ -256,9 +234,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .mobile-nav-active .mobile-nav-toggle {
   color: #000;
-  /* ok */
   background-color: #fa9c44;
-  /* ok */
 }
 
 /*--------------------------------------------------------------
@@ -291,18 +267,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #d8d7d6;
-  /* ok */
 }
 #hero p {
   color: #d8d7d6;
-  /* ok */
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
   color: #fa9c44;
-  /* ok */
   letter-spacing: 1px;
 }
 #hero .social-links {
@@ -312,14 +285,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   display: inline-block;
   color: #d8d7d6;
-  /* ok */
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
 }
 #hero .social-links a:hover {
   color: #fa9c44;
-  /* ok */
 }
 @media (max-width: 992px) {
   #hero {
@@ -356,7 +327,6 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #baafa4;
-  /* ok */
 }
 .section-title h2::before {
   content: "";
@@ -365,7 +335,6 @@ section {
   width: 120px;
   height: 1px;
   background: #222222;
-  /* ok */
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -376,7 +345,6 @@ section {
   width: 40px;
   height: 3px;
   background: #fa9c44;
-  /* ok */
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -391,7 +359,6 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #8d7c6b;
-  /* ok */
 }
 .about .content ul {
   list-style: none;
@@ -409,11 +376,18 @@ section {
   font-size: 16px;
   margin-right: 5px;
   color: #fa9c44;
-  /* ok */
   line-height: 0;
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+.about a {
+  border-bottom: 2px solid #fa9c44;
+}
+
+.about a :hover {
+  color: #eb7506;
+  border-bottom: 2px solid #eb7506;
 }
 
 /*--------------------------------------------------------------
@@ -426,7 +400,6 @@ section {
   position: relative;
   text-align: center;
   /* background: #000; */
-  /* ok */
 }
 .facts .count-box i {
   position: absolute;
@@ -435,9 +408,7 @@ section {
   transform: translateX(-50%);
   font-size: 24px;
   background: #fa9c44;
-  /* ok */
   color: #000;
-  /* ok */
   border-radius: 50px;
   display: inline-flex;
   align-items: center;
@@ -450,7 +421,6 @@ section {
   display: block;
   font-weight: 600;
   color: #feebd9;
-  /* ok */
 }
 .facts .count-box p {
   padding: 0;
@@ -476,7 +446,6 @@ section {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #baafa4;
-  /* ok */
 }
 .skills .progress .skill .val {
   float: right;
@@ -484,14 +453,12 @@ section {
 }
 .skills .progress-bar-wrap {
   background: #0d0c0a;
-  /* ok */
 }
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
   background-color: #fa9c44;
-  /* ok */
 }
 
 /*--------------------------------------------------------------
@@ -503,15 +470,25 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #baafa4;
-  /* ok */
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid #fa9c44;
-  /* ok */
   position: relative;
 }
+
+.resume a {
+  color: #fa9c44;
+  border-bottom: 2px solid #fa9c44;
+  text-decoration: none;
+}
+
+.resume a:hover {
+  color: #eb7506;
+  border-bottom: 2px solid #eb7506;
+}
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
@@ -519,13 +496,11 @@ section {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #fa9c44;
-  /* ok */
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
   font-size: 16px;
   background: #080706;
-  /* ok */
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -549,9 +524,7 @@ section {
   left: -9px;
   top: 0;
   background: #000;
-  /* ok */
   border: 2px solid #fa9c44;
-  /* ok */
 }
 
 /*--------------------------------------------------------------
@@ -566,7 +539,6 @@ section {
   list-style: none;
   text-align: center;
   background: #000;
-  /* ok */
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -579,13 +551,11 @@ section {
   line-height: 1;
   text-transform: uppercase;
   color: #d8d7d6;
-  /* ok */
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fa9c44;
-  /* ok */
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -596,12 +566,10 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(186, 175, 164, 0.8);
-  /* ok */
 }
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(0, 0, 0, 0.7);
-  /* ok */
   position: absolute;
   left: 30px;
   right: 30px;
@@ -635,9 +603,7 @@ section {
   top: 35px;
   left: 35px;
   border-top: 3px solid #28231e;
-  /* ok */
   border-left: 3px solid #28231e;
-  /* ok */
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -650,21 +616,17 @@ section {
   bottom: 35px;
   right: 35px;
   border-bottom: 3px solid #28231e;
-  /* ok */
   border-right: 3px solid #28231e;
-  /* ok */
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
   color: #baafa4;
-  /* ok */
   font-weight: 600;
 }
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #baafa4;
-  /* ok */
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -676,7 +638,6 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #baafa4;
-  /* ok */
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -684,7 +645,6 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #eb7506;
-  /* ok */
 }
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
@@ -722,19 +682,15 @@ section {
   width: 12px;
   height: 12px;
   background-color: #000;
-  /* ok */
   opacity: 1;
   border: 1px solid #fa9c44;
-  /* ok */
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #fa9c44;
-  /* ok */
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(186, 175, 164, 0.08);
-  /* ok */
 }
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
@@ -742,7 +698,6 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #111111;
-  /* ok */
 }
 .portfolio-details .portfolio-info ul {
   list-style: none;
@@ -772,9 +727,7 @@ section {
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #000;
-  /* ok */
   box-shadow: 0px 5px 90px 0px rgba(145, 132, 124, 0.05);
-  /* ok */
 }
 .services .icon-box .icon {
   margin: 0 auto;
@@ -799,7 +752,6 @@ section {
 .services .icon-box .icon svg path {
   transition: 0.5s;
   fill: #0a0a0a;
-  /* ok */
 }
 .services .icon-box h4 {
   font-weight: 600;
@@ -808,7 +760,6 @@ section {
 }
 .services .icon-box h4 a {
   color: #baafa4;
-  /* ok */
   transition: ease-in-out 0.3s;
 }
 .services .icon-box p {
@@ -818,81 +769,61 @@ section {
 }
 .services .icon-box:hover {
   border-color: #000;
-  /* ok */
   box-shadow: 0px 0 35px 0 rgba(255, 255, 255, 0.08);
-  /* ok */
 }
 .services .iconbox-blue i {
   color: #b85100;
-  /* ok */
 }
 .services .iconbox-blue:hover .icon i {
   color: #000;
-  /* ok */
 }
 .services .iconbox-blue:hover .icon path {
   fill: #b85100;
-  /* ok */
 }
 .services .iconbox-orange i {
   color: #005891;
-  /* ok */
 }
 .services .iconbox-orange:hover .icon i {
   color: #000;
-  /* ok */
 }
 .services .iconbox-orange:hover .icon path {
   fill: #005891;
-  /* ok */
 }
 .services .iconbox-pink i {
   color: #17fc97;
-  /* ok */
 }
 .services .iconbox-pink:hover .icon i {
   color: #000;
-  /* ok */
 }
 .services .iconbox-pink:hover .icon path {
   fill: #17fc97;
-  /* ok */
 }
 .services .iconbox-yellow i {
   color: #0044d3;
-  /* ok */
 }
 .services .iconbox-yellow:hover .icon i {
   color: #000;
-  /* ok */
 }
 .services .iconbox-yellow:hover .icon path {
   fill: #0044d3;
-  /* ok */
 }
 .services .iconbox-red i {
   color: #00a7d7;
-  /* ok */
 }
 .services .iconbox-red:hover .icon i {
   color: #000;
-  /* ok */
 }
 .services .iconbox-red:hover .icon path {
   fill: #00a7d7;
-  /* ok */
 }
 .services .iconbox-teal i {
   color: #ee2430;
-  /* ok */
 }
 .services .iconbox-teal:hover .icon i {
   color: #000;
-  /* ok */
 }
 .services .iconbox-teal:hover .icon path {
   fill: #ee2430;
-  /* ok */
 }
 
 /*--------------------------------------------------------------
@@ -911,7 +842,6 @@ section {
   width: 120px;
   border-radius: 50%;
   border: 4px solid #000;
-  /* ok */
   margin: 0 auto;
 }
 .testimonials .testimonial-item h3 {
@@ -919,17 +849,14 @@ section {
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #eeeeee;
-  /* ok */
 }
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #666666;
-  /* ok */
   margin: 0 0 15px 0;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
   color: #6f3703;
-  /* ok */
   font-size: 26px;
 }
 .testimonials .testimonial-item .quote-icon-left {
@@ -955,14 +882,11 @@ section {
   width: 12px;
   height: 12px;
   background-color: #000;
-  /* ok */
   opacity: 1;
   border: 1px solid #fa9c44;
-  /* ok */
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #fa9c44;
-  /* ok */
 }
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
@@ -976,17 +900,14 @@ section {
 .contact .info {
   width: 100%;
   /* background: #000; */
-  /* ok */
 }
 .contact .info i {
   font-size: 20px;
   color: #fa9c44;
-  /* ok */
   float: left;
   width: 44px;
   height: 44px;
   /* background: #110800; */
-  /* ok */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -999,28 +920,23 @@ section {
   font-weight: 600;
   margin-bottom: 5px;
   color: #baafa4;
-  /* ok */
 }
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
   color: #8d7c6b;
-  /* ok */
 }
 .contact .info .email, .contact .info .phone {
   margin-top: 40px;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #fa9c44;
-  /* ok */
+  background: #eb7506;
   /* color: #000; */
-  /* ok */
 }
 .contact .php-email-form {
   width: 100%;
   /* background: #000; */
-  /* ok */
 }
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
@@ -1028,9 +944,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   /* color: #000; */
-  /* ok */
   background: #12c3f2;
-  /* ok */
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1041,9 +955,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   /* color: #000; */
-  /* ok */
   background: #e72d91;
-  /* ok */
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1051,7 +963,6 @@ section {
 .contact .php-email-form .loading {
   display: none;
   /* background: #000; */
-  /* ok */
   text-align: center;
   padding: 15px;
 }
@@ -1063,9 +974,7 @@ section {
   height: 24px;
   margin: 0 10px -6px 0;
   border: 3px solid #e72d91;
-  /* ok */
   border-top-color: #111111;
-  /* ok */
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
@@ -1082,17 +991,14 @@ section {
 }
 .contact .php-email-form button[type=submit] {
   background: #fa9c44;
-  /* ok */
   border: 0;
   padding: 10px 35px;
   color: #000;
-  /* ok */
   transition: 0.4s;
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
   background: #f9871c;
-  /* ok */
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1116,9 +1022,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #080706;
-  /* ok */
   color: #baafa4;
-  /* ok */
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1144,9 +1048,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fa9c44;
-  /* ok */
   color: #000;
-  /* ok */
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1158,9 +1060,7 @@ section {
 }
 #footer .social-links a:hover {
   background: #f9871c;
-  /* ok */
   color: #000;
-  /* ok */
   text-decoration: none;
 }
 #footer .copyright {
