@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Semcomp 2019</title>
-  <meta content="Semana de Computação UFBA" name="description">
-  <meta content="" name="keywords">
+  <title>Space-Invaders</title>
+  <meta content="Space-Invaders with Arduino" name="description">
+  <meta content="Arduino, game, C++" name="keywords">
 
   <!-- Favicons -->
   <link href="../assets/img/favicon.png" rel="icon">
@@ -44,6 +44,17 @@
       <div class="container">
 
         <div class="row gy-4">
+          <h3>Space-Invaders with Arduino</h3>
+
+          <p>
+            This game was made as a challenge to gain as award an Arduino Kit.
+          </p>
+          <p>
+            The game is a simple Space Invaders inspired game using an Arduino UNO, LCD character display, some buttons and a buzzer. The player controls a spaceship and must avoid be hitted by the enemies.
+          </p>
+          <p>
+            This project was implemented in C++ using the Arduino UNO as a microcontroller. Enjoy it!
+          </p>
 
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
@@ -65,43 +76,6 @@
               </div>
               <div class="swiper-pagination"></div>
             </div>
-
-            <h3>How it works</h3>
-            <p>
-              The game is divided in three phases:
-            </p>
-            <ul>
-              <li>
-                <p>
-                  <strong>Ship Actions</strong>: The player can move the spaceship left-right using the buttons.
-                </p>
-                <p>
-                  The spaceship shoots bullets automatically that move up to hit the enemies.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Aliens Actions</strong>: The enemies move right/left and shoot bullets randomly that move down to hit the spaceship.
-                </p>
-                <p>
-                  Depending on the level, the enemies move faster, and the probability of shot rises.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Draw the Screen</strong>: In this phase the game is drawn on the LCD screen according to the game state.
-                </p>
-              </li>
-            </ul>
-            <p>
-              We use some custom characters to represent the game objects.
-            </p>
-            <p>
-              With these characters we can draw the game objects on the LCD,
-              that are: space-ship, bullets and enemies(aliens). Each of these
-              objects has a position on screen and especific behavior for each
-              one.
-            </p>
           </div>
 
           <div class="col-lg-4">
@@ -109,29 +83,52 @@
               <h3>Project information</h3>
               <ul>
                 <li><strong>Category</strong>: Game</li>
-                <!-- <li><strong>Client</strong>: ASU Company</li> -->
                 <li><strong>Project date</strong>: 19 - 29 June 2022</li>
                 <li><strong>Project URL</strong>: <a href="https://github.com/ericksuzart/Space-Invaders">GitHub</a>, <a href="https://www.tinkercad.com/things/8VGYlNrX5pF">Tinkercad project</a></li>
               </ul>
             </div>
 
             <div class="portfolio-description">
-              <h2>Detail</h2>
+              <h2>Details</h2>
+              <h3>How it works</h3>
               <p>
-                This game was made as a challenge to gain as award an Arduino Kit.
+                The game is divided in three phases:
+              </p>
+              <ul>
+                <li>
+                  <p>
+                    <strong>Ship Actions</strong>: The player can move the spaceship left-right using the buttons.
+                  </p>
+                  <p>
+                    The spaceship shoots bullets automatically that move up to hit the enemies.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Aliens Actions</strong>: The enemies move right/left and shoot bullets randomly that move down to hit the spaceship.
+                  </p>
+                  <p>
+                    Depending on the level, the enemies move faster, and the probability of shot rises.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Draw the Screen</strong>: In this phase the game is drawn on the LCD screen according to the game state.
+                  </p>
+                </li>
+              </ul>
+              <p>
+                We use some custom characters to represent the game objects.
               </p>
               <p>
-                The game is a simple Space Invaders inspired game using an Arduino UNO, LCD character display, some buttons and a buzzer. The player controls a spaceship and must avoid be hitted by the enemies.
+                With these characters we can draw the game objects on the LCD,
+                that are: space-ship, bullets and enemies(aliens). Each of these
+                objects has a position on screen and especific behavior for each
+                one.
               </p>
-              <p>
-                This project was implemented in C++ using the Arduino UNO as a microcontroller. Enjoy it!
-              </p>
-              
             </div>
           </div>
-
         </div>
-
       </div>
     </section><!-- End Portfolio Details Section -->
 
